@@ -1,7 +1,9 @@
 <div class="card card-product" id="product-<%= product.id %>" style="width: 18rem;">
-  <img class="card-img-top" src="product.webp" alt="Card image cap">
+  <%= image_tag "mammal.jpg" %>
   <div class="card-body">
     <h5 class="card-title"><%= product.name %></h5>
     <p class="card-text"><%= product.category.name.capitalize %></p>
+    <p class="card-text"><%= product.owner.address %></p>
+    <p class="card-text"><%= product.price %>€</p>
   </div>
 </div>

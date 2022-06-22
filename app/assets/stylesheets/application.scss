@@ -11,3 +11,18 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "components/cards";
+@import "components/banner";
+@import "components/buttons";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #FBF8EC;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

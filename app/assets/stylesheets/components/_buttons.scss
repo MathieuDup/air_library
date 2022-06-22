@@ -1,0 +1,17 @@
+.btn-red {
+  color: $light-creme;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $light-red;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  border-color: $light-red;
+  border-style: solid;
+}
+
+.btn-red:hover {
+  background: $light-creme;
+  color: $light-red;
+  border-color: $light-creme;
+  border-style: solid;
+}
