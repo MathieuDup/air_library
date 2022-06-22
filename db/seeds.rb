@@ -38,10 +38,10 @@ puts "Categories created"
 
 puts "creating products ..."
 
-Product.create(name: "Mammal Hands - Captured Spirt", description: "A hand made by a mammal", price: 10, details: "Vinyl, good condition", category: music, user: florian)
-Product.create(name: "Harry Potter 1 - The Philosopher's Stone", description: "A book about a wizard", price: 10, details: "Hardcover, good condition", category: books, user: patricia)
-Product.create(name: "Interstellar", description: "A movie about a space ship", price: 10, details: "DVD, good condition", category: video, user: jerome)
-Product.create(name: "Tic-Tac-Toe", description: "A board game", price: 10, details: "Good condition", category: board_games, user: mathieu)
-Product.create(name: "Super Mario Bros", description: "A video game", price: 10, details: "Good condition", category: video_games, user: patricia)
+Product.create(name: "Mammal Hands - Captured Spirt", description: "A hand made by a mammal", price: 10, details: "Vinyl, good condition", category: music, owner: florian)
+Product.create(name: "Harry Potter 1 - The Philosopher's Stone", description: "A book about a wizard", price: 10, details: "Hardcover, good condition", category: books, owner: patricia)
+Product.create(name: "Interstellar", description: "A movie about a space ship", price: 10, details: "DVD, good condition", category: video, owner: jerome)
+Product.create(name: "Tic-Tac-Toe", description: "A board game", price: 10, details: "Good condition", category: board_games, owner: mathieu)
+Product.create(name: "Super Mario Bros", description: "A video game", price: 10, details: "Good condition", category: video_games, owner: patricia)
 
 puts "Products created"

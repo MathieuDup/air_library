@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'products#index'
   resources :products do
-    resources :orders, only: :create
+    resources :bookings, only: :create
   end
-  resources :orders, only: %i[index show edit update] do
+  resources :bookings, only: %i[index show edit update] do
     resources :messages, only: %i[index create]
   end
   resources :users, only: %i[show edit update]

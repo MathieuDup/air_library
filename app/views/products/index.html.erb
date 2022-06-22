@@ -1,0 +1,7 @@
+<h2 id="products-anchor">Trending products</h2>
+
+<div class="cards-products">
+  <% @products.each do |product| %>
+    <%= render 'products/card_product', product: product%>
+  <% end %>
+</div>
